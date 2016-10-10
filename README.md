@@ -57,3 +57,4 @@ This repository can be used with multiple Dockbit providers, for information on 
 
  * [Node.js](https://docs.dockbit.com/integrations/node/)
  * [AWS S3 Website](https://docs.dockbit.com/integrations/aws-s3-website/)
+ * [Snyk](https://docs.dockbit.com/integrations/snyk/)
