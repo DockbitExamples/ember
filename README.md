@@ -51,3 +51,9 @@ Specify what it takes to deploy your app.
   * [ember inspector for chrome](https://chrome.google.com/webstore/detail/ember-inspector/bmdblncegkenkacieihfhpjfppoconhi)
   * [ember inspector for firefox](https://addons.mozilla.org/en-US/firefox/addon/ember-inspector/)
 
+## Dockbit Examples
+
+This repository can be used with multiple Dockbit providers, for information on how to use the providers please head to the integrations official documentation
+
+ * [Node.js](https://docs.dockbit.com/integrations/node/)
+ * [AWS S3 Website](https://docs.dockbit.com/integrations/aws-s3-website/)
