@@ -1,16 +1,66 @@
 # Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
-version: v1.7.0
+version: v1.7.1
 # ignores vulnerabilities until expiry date; change duration by modifying expiry date
 ignore:
   'npm:minimatch:20160620':
     - node-gyp > minimatch:
         reason: None given
-        expires: '2017-04-08T12:05:43.068Z'
+        expires: '2017-07-15T22:42:09.361Z'
     - node-gyp > glob > minimatch:
         reason: None given
-        expires: '2017-04-08T12:05:43.068Z'
+        expires: '2017-07-15T22:42:09.361Z'
   'npm:tough-cookie:20160722':
     - tough-cookie:
         reason: None given
-        expires: '2017-04-08T12:05:43.068Z'
+        expires: '2017-07-15T22:42:09.361Z'
+  'npm:ms:20170412':
+    - array-index > debug > ms:
+        reason: None given
+        expires: '2017-07-15T22:42:09.361Z'
+    - node-gyp > path-array > array-index > debug > ms:
+        reason: None given
+        expires: '2017-07-15T22:42:09.361Z'
+  'npm:brace-expansion:20170302':
+    - fs-vacuum > rimraf > glob > minimatch > brace-expansion:
+        reason: None given
+        expires: '2017-07-15T22:42:09.361Z'
+    - fstream > rimraf > glob > minimatch > brace-expansion:
+        reason: None given
+        expires: '2017-07-15T22:42:09.361Z'
+    - init-package-json > glob > minimatch > brace-expansion:
+        reason: None given
+        expires: '2017-07-15T22:42:09.361Z'
+    - init-package-json > read-package-json > glob > minimatch > brace-expansion:
+        reason: None given
+        expires: '2017-07-15T22:42:09.361Z'
+    - npm-registry-client > rimraf > glob > minimatch > brace-expansion:
+        reason: None given
+        expires: '2017-07-15T22:42:09.361Z'
+    - read-installed > read-package-json > glob > minimatch > brace-expansion:
+        reason: None given
+        expires: '2017-07-15T22:42:09.361Z'
+    - fstream-ignore > minimatch > brace-expansion:
+        reason: None given
+        expires: '2017-07-15T22:42:09.361Z'
+    - fstream-ignore > fstream > rimraf > glob > minimatch > brace-expansion:
+        reason: None given
+        expires: '2017-07-15T22:42:09.362Z'
+    - fstream-npm > fstream-ignore > minimatch > brace-expansion:
+        reason: None given
+        expires: '2017-07-15T22:42:09.362Z'
+    - fstream-npm > fstream-ignore > fstream > rimraf > glob > minimatch > brace-expansion:
+        reason: None given
+        expires: '2017-07-15T22:42:09.362Z'
+    - node-gyp > glob > minimatch > brace-expansion:
+        reason: None given
+        expires: '2017-07-15T22:42:09.362Z'
+    - node-gyp > rimraf > glob > minimatch > brace-expansion:
+        reason: None given
+        expires: '2017-07-15T22:42:09.362Z'
+    - node-gyp > fstream > rimraf > glob > minimatch > brace-expansion:
+        reason: None given
+        expires: '2017-07-15T22:42:09.362Z'
+    - node-gyp > tar > fstream > rimraf > glob > minimatch > brace-expansion:
+        reason: None given
+        expires: '2017-07-15T22:42:09.362Z'
 patch: {}
