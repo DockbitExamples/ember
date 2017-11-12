@@ -5,86 +5,86 @@ ignore:
   'npm:minimatch:20160620':
     - node-gyp > minimatch:
         reason: None given
-        expires: '2017-10-30T13:09:08.696Z'
+        expires: '2017-12-12T19:28:36.442Z'
     - node-gyp > glob > minimatch:
         reason: None given
-        expires: '2017-10-30T13:09:08.696Z'
+        expires: '2017-12-12T19:28:36.442Z'
   'npm:tough-cookie:20160722':
     - tough-cookie:
         reason: None given
-        expires: '2017-10-30T13:09:08.696Z'
+        expires: '2017-12-12T19:28:36.442Z'
   'npm:ms:20170412':
     - array-index > debug > ms:
         reason: None given
-        expires: '2017-10-30T13:09:08.696Z'
+        expires: '2017-12-12T19:28:36.442Z'
     - node-gyp > path-array > array-index > debug > ms:
         reason: None given
-        expires: '2017-10-30T13:09:08.696Z'
+        expires: '2017-12-12T19:28:36.442Z'
   'npm:brace-expansion:20170302':
     - fs-vacuum > rimraf > glob > minimatch > brace-expansion:
         reason: None given
-        expires: '2017-10-30T13:09:08.696Z'
+        expires: '2017-12-12T19:28:36.442Z'
     - fstream > rimraf > glob > minimatch > brace-expansion:
         reason: None given
-        expires: '2017-10-30T13:09:08.696Z'
+        expires: '2017-12-12T19:28:36.442Z'
     - init-package-json > glob > minimatch > brace-expansion:
         reason: None given
-        expires: '2017-10-30T13:09:08.697Z'
+        expires: '2017-12-12T19:28:36.443Z'
     - init-package-json > read-package-json > glob > minimatch > brace-expansion:
         reason: None given
-        expires: '2017-10-30T13:09:08.697Z'
+        expires: '2017-12-12T19:28:36.443Z'
     - npm-registry-client > rimraf > glob > minimatch > brace-expansion:
         reason: None given
-        expires: '2017-10-30T13:09:08.697Z'
+        expires: '2017-12-12T19:28:36.443Z'
     - read-installed > read-package-json > glob > minimatch > brace-expansion:
         reason: None given
-        expires: '2017-10-30T13:09:08.697Z'
+        expires: '2017-12-12T19:28:36.443Z'
     - fstream-ignore > minimatch > brace-expansion:
         reason: None given
-        expires: '2017-10-30T13:09:08.697Z'
+        expires: '2017-12-12T19:28:36.443Z'
     - fstream-ignore > fstream > rimraf > glob > minimatch > brace-expansion:
         reason: None given
-        expires: '2017-10-30T13:09:08.697Z'
+        expires: '2017-12-12T19:28:36.443Z'
     - fstream-npm > fstream-ignore > minimatch > brace-expansion:
         reason: None given
-        expires: '2017-10-30T13:09:08.697Z'
+        expires: '2017-12-12T19:28:36.443Z'
     - fstream-npm > fstream-ignore > fstream > rimraf > glob > minimatch > brace-expansion:
         reason: None given
-        expires: '2017-10-30T13:09:08.697Z'
+        expires: '2017-12-12T19:28:36.443Z'
     - node-gyp > glob > minimatch > brace-expansion:
         reason: None given
-        expires: '2017-10-30T13:09:08.697Z'
+        expires: '2017-12-12T19:28:36.443Z'
     - node-gyp > rimraf > glob > minimatch > brace-expansion:
         reason: None given
-        expires: '2017-10-30T13:09:08.697Z'
+        expires: '2017-12-12T19:28:36.443Z'
     - node-gyp > fstream > rimraf > glob > minimatch > brace-expansion:
         reason: None given
-        expires: '2017-10-30T13:09:08.697Z'
+        expires: '2017-12-12T19:28:36.443Z'
     - node-gyp > tar > fstream > rimraf > glob > minimatch > brace-expansion:
         reason: None given
-        expires: '2017-10-30T13:09:08.697Z'
+        expires: '2017-12-12T19:28:36.443Z'
   'npm:tunnel-agent:20170305':
     - node-gyp > request > tunnel-agent:
         reason: None given
-        expires: '2017-10-30T13:09:08.696Z'
+        expires: '2017-12-12T19:28:36.442Z'
     - npm-registry-client > request > tunnel-agent:
         reason: None given
-        expires: '2017-10-30T13:09:08.696Z'
+        expires: '2017-12-12T19:28:36.442Z'
   'npm:debug:20170905':
     - array-index > debug:
         reason: None given
-        expires: '2017-10-30T13:09:08.696Z'
+        expires: '2017-12-12T19:28:36.442Z'
     - node-gyp > path-array > array-index > debug:
         reason: None given
-        expires: '2017-10-30T13:09:08.696Z'
+        expires: '2017-12-12T19:28:36.442Z'
   'npm:tough-cookie:20170905':
     - node-gyp > request > tough-cookie:
         reason: None given
-        expires: '2017-10-30T13:09:08.696Z'
+        expires: '2017-12-12T19:28:36.442Z'
     - npm-registry-client > request > tough-cookie:
         reason: None given
-        expires: '2017-10-30T13:09:08.696Z'
+        expires: '2017-12-12T19:28:36.442Z'
     - tough-cookie:
         reason: None given
-        expires: '2017-10-30T13:09:08.696Z'
+        expires: '2017-12-12T19:28:36.442Z'
 patch: {}
